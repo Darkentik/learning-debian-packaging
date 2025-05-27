@@ -1,0 +1,5 @@
+learning-debian-packaging (1.0-1) stable; urgency=medium
+
+  * Initial release.
+
+ -- David Fritsch <darkentik@googlemail.com>  Tue, 27 May 2025 14:09:00 +0200

@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	install -D -m 755 write-log.sh $(CURDIR)/debian/learning-debian-packaging/usr/bin/write-log

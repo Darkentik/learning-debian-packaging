@@ -1,0 +1,13 @@
+Source: learning-debian-packaging
+Section: misc
+Priority: optional
+Maintainer: David Fritsch <darkentik@googlemail.com>
+Build-Depends: debhelper (>= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/Darkentik/learning-debian-packaging
+
+Package: learning-debian-packaging
+Architecture: all
+Depends: ${misc:Depends}
+Description: A simple script that writes some little feedback in a logfile.
+    This package contains a little bash script that writes a little success message into /tmp/debian_package.log.
