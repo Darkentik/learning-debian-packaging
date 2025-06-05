@@ -1,0 +1,8 @@
+Index: learning-debian-packaging/write-log.sh
+===================================================================
+--- learning-debian-packaging.orig/write-log.sh
++++ learning-debian-packaging/write-log.sh
+@@ -1,2 +1,2 @@
+ #!/bin/bash
+-echo "Hurra, eigenes DEB Paket erfolgreich gebaut" >> /tmp/debian_package.log
++echo "Hurra, eigenes DEB Paket erfolgreich gebaut und konnte gepatcht werden." >> /tmp/debian_package.log
